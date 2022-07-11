@@ -17,7 +17,6 @@ import lombok.NoArgsConstructor;
 @Table
 //@AllArgsConstructor
 //@NoArgsConstructor
-//@SequenceGenerator(name="sequence",sequenceName="mySequence")
 public class Employee {
 	@Id
 	@GeneratedValue
