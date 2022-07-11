@@ -15,8 +15,8 @@ import lombok.NoArgsConstructor;
 @Entity
 @Data
 @Table
-@AllArgsConstructor
-@NoArgsConstructor
+//@AllArgsConstructor
+//@NoArgsConstructor
 //@SequenceGenerator(name="sequence",sequenceName="mySequence")
 public class Employee {
 	@Id
