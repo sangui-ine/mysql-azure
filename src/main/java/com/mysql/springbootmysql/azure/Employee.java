@@ -20,7 +20,6 @@ import lombok.NoArgsConstructor;
 public class Employee {
 	@Id
 	@GeneratedValue
-//	(strategy = GenerationType.SEQUENCE,generator="sequence")
 	private int id;
 	private String name;
 	private String dept;
